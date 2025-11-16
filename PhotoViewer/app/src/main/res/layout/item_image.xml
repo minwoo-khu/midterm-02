@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true" />
+
+    <!-- 즐겨찾기 토글 버튼 (우상단) -->
+    <ImageButton
+        android:id="@+id/btnFav"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="6dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="즐겨찾기"
+        android:padding="2dp"
+        android:src="@android:drawable/btn_star_big_off" />
+</FrameLayout>
